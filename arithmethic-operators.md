@@ -260,7 +260,7 @@ Result:
 81
 ```
 
-## Explanation: The exponentiation is evaluated before the multiplication and the addition.
+Explanation: The exponentiation is evaluated before the multiplication and the addition.
 
 Code:
 
@@ -322,7 +322,7 @@ Result:
 3
 ```
 
-## Explanation: The modulus is evaluated before the multiplication and the addition.
+Explanation: The modulus is evaluated before the multiplication and the addition.
 
 Code:
 
@@ -336,7 +336,7 @@ Result:
 3
 ```
 
-## Explanation: The modulus is evaluated before the integer division, the exponentiation is evaluated before the multiplication, the integer division is evaluated before the multiplication, and the addition is evaluated before the multiplication.
+Explanation: The modulus is evaluated before the integer division, the exponentiation is evaluated before the multiplication, the integer division is evaluated before the multiplication, and the addition is evaluated before the multiplication.
 
 Code:
 
@@ -350,7 +350,7 @@ Result:
 3
 ```
 
-## Explanation: The modulus is evaluated before the integer division, the exponentiation is evaluated before the multiplication, the integer division is evaluated before the multiplication, and the addition is evaluated before the multiplication.
+Explanation: The modulus is evaluated before the integer division, the exponentiation is evaluated before the multiplication, the integer division is evaluated before the multiplication, and the addition is evaluated before the multiplication.
 
 Code:
 
@@ -364,7 +364,7 @@ Result:
 -4
 ```
 
-## Explanation: The subtraction is evaluated before the modulus, the modulus is evaluated before the integer division, the exponentiation is evaluated before the multiplication, the integer division is evaluated before the multiplication, and the addition is evaluated before the multiplication.
+Explanation: The subtraction is evaluated before the modulus, the modulus is evaluated before the integer division, the exponentiation is evaluated before the multiplication, the integer division is evaluated before the multiplication, and the addition is evaluated before the multiplication.
 
 Code:
 
@@ -378,7 +378,7 @@ Result:
 -4
 ```
 
-## Explanation: The subtraction is evaluated before the modulus, the modulus is evaluated before the integer division, the exponentiation is evaluated before the multiplication, the integer division is evaluated before the multiplication, and the addition is evaluated before the multiplication.
+Explanation: The subtraction is evaluated before the modulus, the modulus is evaluated before the integer division, the exponentiation is evaluated before the multiplication, the integer division is evaluated before the multiplication, and the addition is evaluated before the multiplication.
 
 Code:
 
