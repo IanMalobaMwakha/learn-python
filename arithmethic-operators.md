@@ -182,6 +182,10 @@ Result:
 7
 ```
 
+Note: The multiplication is evaluated before the addition.
+
+---
+
 Code:
 
 ```python
@@ -193,6 +197,8 @@ Result:
 ```shell
 9
 ```
+
+Note: The addition is evaluated before the multiplication.
 
 ---
 
@@ -208,6 +214,10 @@ Result:
 9
 ```
 
+Note: The exponentiation is evaluated before the addition.
+
+---
+
 Code:
 
 ```python
@@ -219,6 +229,8 @@ Result:
 ```shell
 27
 ```
+
+Note: The addition is evaluated before the exponentiation.
 
 ---
 
@@ -234,6 +246,8 @@ Result:
 163
 ```
 
+## Note: The exponentiation is evaluated before the multiplication and the addition.
+
 Code:
 
 ```python
@@ -245,6 +259,8 @@ Result:
 ```shell
 81
 ```
+
+Note: The addition is evaluated before the multiplication and the exponentiation.
 
 ---
 
@@ -259,6 +275,8 @@ Result:
 ```shell
 2
 ```
+
+---
 
 Code:
 
@@ -286,6 +304,8 @@ Result:
 3
 ```
 
+---
+
 Code:
 
 ```python
@@ -312,6 +332,8 @@ Result:
 3
 ```
 
+---
+
 Code:
 
 ```python
@@ -337,6 +359,8 @@ Result:
 ```shell
 -4
 ```
+
+---
 
 Code:
 
