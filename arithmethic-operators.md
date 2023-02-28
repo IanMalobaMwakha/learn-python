@@ -182,7 +182,7 @@ Result:
 7
 ```
 
-Note: The multiplication is evaluated before the addition.
+Explanation: The multiplication is evaluated before the addition.
 
 ---
 
@@ -198,7 +198,7 @@ Result:
 9
 ```
 
-Note: The addition is evaluated before the multiplication.
+Explanation: The addition is evaluated before the multiplication.
 
 ---
 
@@ -214,7 +214,7 @@ Result:
 9
 ```
 
-Note: The exponentiation is evaluated before the addition.
+Explanation: The exponentiation is evaluated before the addition.
 
 ---
 
@@ -230,7 +230,7 @@ Result:
 27
 ```
 
-Note: The addition is evaluated before the exponentiation.
+Explanation: The addition is evaluated before the exponentiation.
 
 ---
 
@@ -246,7 +246,7 @@ Result:
 163
 ```
 
-## Note: The exponentiation is evaluated before the multiplication and the addition.
+Explanation: The exponentiation is evaluated before the multiplication and the addition.
 
 Code:
 
@@ -260,9 +260,7 @@ Result:
 81
 ```
 
-Note: The addition is evaluated before the multiplication and the exponentiation.
-
----
+## Explanation: The exponentiation is evaluated before the multiplication and the addition.
 
 Code:
 
@@ -275,6 +273,8 @@ Result:
 ```shell
 2
 ```
+
+Explanation: The integer division is evaluated before the multiplication and the addition.
 
 ---
 
@@ -290,6 +290,8 @@ Result:
 1
 ```
 
+Explanation: The integer division is evaluated before the multiplication and the addition.
+
 ---
 
 Code:
@@ -303,6 +305,8 @@ Result:
 ```shell
 3
 ```
+
+Explanation: The modulus is evaluated before the multiplication and the addition.
 
 ---
 
@@ -318,7 +322,7 @@ Result:
 3
 ```
 
----
+## Explanation: The modulus is evaluated before the multiplication and the addition.
 
 Code:
 
@@ -332,7 +336,7 @@ Result:
 3
 ```
 
----
+## Explanation: The modulus is evaluated before the integer division, the exponentiation is evaluated before the multiplication, the integer division is evaluated before the multiplication, and the addition is evaluated before the multiplication.
 
 Code:
 
@@ -346,7 +350,7 @@ Result:
 3
 ```
 
----
+## Explanation: The modulus is evaluated before the integer division, the exponentiation is evaluated before the multiplication, the integer division is evaluated before the multiplication, and the addition is evaluated before the multiplication.
 
 Code:
 
@@ -360,7 +364,7 @@ Result:
 -4
 ```
 
----
+## Explanation: The subtraction is evaluated before the modulus, the modulus is evaluated before the integer division, the exponentiation is evaluated before the multiplication, the integer division is evaluated before the multiplication, and the addition is evaluated before the multiplication.
 
 Code:
 
@@ -374,7 +378,7 @@ Result:
 -4
 ```
 
----
+## Explanation: The subtraction is evaluated before the modulus, the modulus is evaluated before the integer division, the exponentiation is evaluated before the multiplication, the integer division is evaluated before the multiplication, and the addition is evaluated before the multiplication.
 
 Code:
 
@@ -388,6 +392,8 @@ Result:
 4
 ```
 
+Explanation: The addition is evaluated before the subtraction, the subtraction is evaluated before the modulus, the modulus is evaluated before the integer division, the exponentiation is evaluated before the multiplication, the integer division is evaluated before the multiplication, and the addition is evaluated before the multiplication.
+
 Code:
 
 ```python
@@ -399,3 +405,5 @@ Result:
 ```shell
 4
 ```
+
+Explanation: The addition is evaluated before the subtraction, the subtraction is evaluated before the modulus, the modulus is evaluated before the integer division, the exponentiation is evaluated before the multiplication, the integer division is evaluated before the multiplication, and the addition is evaluated before the multiplication.
