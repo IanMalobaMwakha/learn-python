@@ -248,6 +248,8 @@ Result:
 
 Explanation: The exponentiation is evaluated before the multiplication and the addition.
 
+---
+
 Code:
 
 ```python
@@ -261,6 +263,8 @@ Result:
 ```
 
 Explanation: The exponentiation is evaluated before the multiplication and the addition.
+
+---
 
 Code:
 
@@ -324,6 +328,8 @@ Result:
 
 Explanation: The modulus is evaluated before the multiplication and the addition.
 
+---
+
 Code:
 
 ```python
@@ -337,6 +343,8 @@ Result:
 ```
 
 Explanation: The modulus is evaluated before the integer division, the exponentiation is evaluated before the multiplication, the integer division is evaluated before the multiplication, and the addition is evaluated before the multiplication.
+
+---
 
 Code:
 
@@ -352,6 +360,8 @@ Result:
 
 Explanation: The modulus is evaluated before the integer division, the exponentiation is evaluated before the multiplication, the integer division is evaluated before the multiplication, and the addition is evaluated before the multiplication.
 
+---
+
 Code:
 
 ```python
@@ -365,6 +375,8 @@ Result:
 ```
 
 Explanation: The subtraction is evaluated before the modulus, the modulus is evaluated before the integer division, the exponentiation is evaluated before the multiplication, the integer division is evaluated before the multiplication, and the addition is evaluated before the multiplication.
+
+---
 
 Code:
 
@@ -380,6 +392,8 @@ Result:
 
 Explanation: The subtraction is evaluated before the modulus, the modulus is evaluated before the integer division, the exponentiation is evaluated before the multiplication, the integer division is evaluated before the multiplication, and the addition is evaluated before the multiplication.
 
+---
+
 Code:
 
 ```python
@@ -393,6 +407,8 @@ Result:
 ```
 
 Explanation: The addition is evaluated before the subtraction, the subtraction is evaluated before the modulus, the modulus is evaluated before the integer division, the exponentiation is evaluated before the multiplication, the integer division is evaluated before the multiplication, and the addition is evaluated before the multiplication.
+
+---
 
 Code:
 
