@@ -168,6 +168,8 @@ The order of operations is the order in which operators are evaluated. The order
 6. Addition
 7. Subtraction
 
+## Examples
+
 Code:
 
 ```python
