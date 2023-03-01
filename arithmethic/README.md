@@ -28,7 +28,7 @@ Result:
 2
 ```
 
-<video src='./_animations/media/videos/SimpleAddition/1080p60/SimpleAddition.mp4' width="180"/>
+![Addition Animation](./_animations/media/videos/SimpleAddition/1080p60/SimpleAddition_ManimCE_v0.17.2.gif)
 
 ## Subtraction
 
