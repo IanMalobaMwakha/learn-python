@@ -28,6 +28,8 @@ Result:
 2
 ```
 
+<video src='./_animations/media/videos/SimpleAddition/1080p60/SimpleAddition.mp4' width="180"/>
+
 ## Subtraction
 
 The subtraction operator is used to subtract two numbers. The result of the subtraction is the difference of the two numbers.
