@@ -1,0 +1,6 @@
+# This file is used internally by FFMPEG.
+file 'file:/Users/rifkiardiansyah/Projects/learn-python/arithmethic/_animations/media/videos/SimpleAddition/1080p60/partial_movie_files/SimpleAddition/1413466013_3884911801_223132457.mp4'
+file 'file:/Users/rifkiardiansyah/Projects/learn-python/arithmethic/_animations/media/videos/SimpleAddition/1080p60/partial_movie_files/SimpleAddition/1672018281_2799367041_561678431.mp4'
+file 'file:/Users/rifkiardiansyah/Projects/learn-python/arithmethic/_animations/media/videos/SimpleAddition/1080p60/partial_movie_files/SimpleAddition/1672018281_3571680847_2658386315.mp4'
+file 'file:/Users/rifkiardiansyah/Projects/learn-python/arithmethic/_animations/media/videos/SimpleAddition/1080p60/partial_movie_files/SimpleAddition/1672018281_277664564_1723690681.mp4'
+file 'file:/Users/rifkiardiansyah/Projects/learn-python/arithmethic/_animations/media/videos/SimpleAddition/1080p60/partial_movie_files/SimpleAddition/1672018281_2247742519_3814386552.mp4'
