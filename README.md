@@ -1,5 +1,5 @@
 <h1 align="center">
- Learning Python
+ Learn Python
 
   <br />
   <br />
