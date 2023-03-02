@@ -2,6 +2,7 @@
  Learning Python
 
   <br />
+  <br />
 
   <img src="./python-logo.png" height="200">
 </h1>
