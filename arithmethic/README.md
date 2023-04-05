@@ -109,6 +109,7 @@ Result:
 ```shell
 2
 ```
+N.B: You can also use the increment  operator to increment the value of a number by 2 or more. 
 
 ## Decrement
 
